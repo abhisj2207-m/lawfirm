@@ -105,7 +105,7 @@ const Clients = () => {
                 ))}
               </div>
               <blockquote className="text-gray-700 mb-6 italic">
-                "{testimonial.content}"
+                {testimonial.content}
               </blockquote>
               <div>
                 <div className="font-semibold text-gray-900">
