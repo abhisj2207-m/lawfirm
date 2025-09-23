@@ -100,7 +100,7 @@ const Navbar = () => {
             transition={{ delay: 0.6, duration: 0.6 }}
             className="hidden lg:flex items-center space-x-4"
           >
-            <Image src="/cta.png" alt="Let's Connect" width={140} height={40} className="h-7 w-auto" />
+            {/* <Image src="/cta.png" alt="Let's Connect" width={140} height={40} className="h-7 w-auto" /> */}
             <div className="flex flex-col text-right leading-tight">
               <div className="text-gray-800 font-semibold">US 1: +1 (302) 560-0010</div>
               <div className="text-gray-800 font-semibold">US 2: +1 (415) 555-0199</div>
