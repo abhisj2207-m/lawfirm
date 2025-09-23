@@ -157,9 +157,8 @@ const Navbar = () => {
                 <div className="flex items-center justify-between px-4 py-4 border-b">
                   <div className="flex items-center space-x-3">
                     <div className="w-8 h-8 bg-gray-900 flex items-center justify-center">
-                      <div className="w-4 h-4 border-l-2 border-t-2 border-white transform rotate-45"></div>
                     </div>
-                    <div className="text-lg font-serif font-medium text-gray-900">Jacovi, Koe & Associates</div>
+                    <div className="text-lg font-serif font-medium text-gray-900">Clause & Co. Associates</div>
                   </div>
                   <button aria-label="Close menu" onClick={() => setIsMenuOpen(false)} className="p-2 rounded-md text-gray-800 hover:bg-gray-100">
                     <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">

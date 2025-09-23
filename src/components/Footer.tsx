@@ -55,11 +55,10 @@ const Footer = () => {
             >
               <div className="flex items-center space-x-3 mb-6">
                 <div className="w-8 h-8 bg-white flex items-center justify-center">
-                  <div className="w-4 h-4 border-l-2 border-t-2 border-gray-900 transform rotate-45"></div>
                 </div>
                 <div className="text-xl font-serif font-bold">
-                  <div>Jacovi, Koe</div>
-                  <div className="text-sm font-normal">& Associates</div>
+                  <div>Clause & Co </div>
+                  <div className="text-sm font-normal"> Associates</div>
                 </div>
               </div>
               <p className="text-gray-300 mb-6 leading-relaxed">
@@ -70,7 +69,7 @@ const Footer = () => {
                 <p>📍 123 Legal Plaza, Suite 500</p>
                 <p>New York, NY 10001</p>
                 <p>📞 (555) 123-4567</p>
-                <p>✉️ info@jacovikoe.com</p>
+                <p>✉️ info@CaluseCo.com</p>
               </div>
             </motion.div>
 
@@ -178,7 +177,7 @@ const Footer = () => {
         >
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-sm text-gray-400">
-              © {currentYear} Jacovi, Koe & Associates. All rights reserved.
+              © {currentYear} Clause & Co Associates. All rights reserved.
             </div>
             <div className="flex space-x-6 text-sm text-gray-400">
               <a href="#" className="hover:text-white transition-colors duration-200">
