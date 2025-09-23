@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --primary: #1a1a1a;
+  --secondary: #6b7280;
+  --accent: #3b82f6;
+    --font_1: normal normal normal 16px / 1.4em din-next-w01-light, sans-serif;
+    --font_2: normal normal normal 40px / 1.4em wfont_b99f85_1868ec57ac0a436a80e5bd0515d577cb, wf_1868ec57ac0a436a80e5bd051, orig_libre_baskerville;
+    --font_3: normal normal normal 38px / 1.4em wfont_b99f85_1868ec57ac0a436a80e5bd0515d577cb, wf_1868ec57ac0a436a80e5bd051, orig_libre_baskerville;
+    --font_4: italic normal normal 34px / 1.4em cormorantgaramond-light, cormorantgaramond, 'cormorant garamond', serif;
+    --font_5: italic normal normal 27px / 1.4em cormorantgaramond-light, cormorantgaramond, 'cormorant garamond', serif;
+    --font_6: italic normal normal 25px / 1.4em cormorantgaramond-light, cormorantgaramond, 'cormorant garamond', serif;
+    --font_7: italic normal normal 22px / 1.4em cormorantgaramond-light, cormorantgaramond, 'cormorant garamond', serif;
+    --font_8: normal normal normal 18px / 1.4em cormorantgaramond-light, cormorantgaramond, 'cormorant garamond', serif;
+    --font_9: normal normal normal 16px / 1.4em cormorantgaramond-light, cormorantgaramond, 'cormorant garamond', serif;
+    --font_10: normal normal normal 12px / 1.4em din-next-w01-light, sans-serif;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font_0: ["var(--font-libre)", "serif"];
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Lora', Georgia, serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply Playfair Display to all H1 and H2 */
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Use Lora/Georgia for italic subtext */
+em, i, .italic {
+  font-family: 'Lora', Georgia, serif;
+}
+
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+/* Smooth transitions for all interactive elements */
+a, button {
+  transition: all 0.3s ease;
+}
+
+/* Focus styles for accessibility */
+a:focus, button:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
