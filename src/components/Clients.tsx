@@ -18,13 +18,13 @@ const Clients = () => {
     {
       name: "Michael Chen",
       role: "Real Estate Developer",
-      content: "The team's real estate law expertise helped us navigate complex zoning issues and close multiple high-value property transactions. Highly professional and reliable.",
+      content: "The teams real estate law expertise helped us navigate complex zoning issues and close multiple high-value property transactions. Highly professional and reliable.",
       rating: 5
     },
     {
       name: "Emily Rodriguez",
       role: "Small Business Owner",
-      content: "When I faced a difficult contract dispute, they provided clear, strategic advice that saved my business thousands of dollars. I couldn't be more grateful.",
+      content: "When I faced a difficult contract dispute, they provided clear, strategic advice that saved my business thousands of dollars. I could not be more grateful.",
       rating: 5
     }
   ];
@@ -51,7 +51,7 @@ const Clients = () => {
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-12">
             Our success is measured by the trust and satisfaction of our clients. 
-            Here's what they have to say about working with us.
+            Here&apos;s what they have to say about working with us.
           </p>
 
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mb-16">

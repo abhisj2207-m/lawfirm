@@ -67,7 +67,7 @@ const Contact = () => {
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             Ready to discuss your legal needs? Get in touch with our experienced team 
-            for a confidential consultation. We're here to help you navigate your legal challenges.
+            for a confidential consultation. We&apos;re here to help you navigate your legal challenges.
           </p>
         </motion.div>
 
@@ -192,7 +192,7 @@ const Contact = () => {
                 Get in Touch
               </h3>
               <p className="text-gray-600 mb-8">
-                We're committed to providing exceptional legal services. 
+                We&apos;re committed to providing exceptional legal services. 
                 Contact us today to schedule your consultation or learn more about how we can help.
               </p>
             </div>

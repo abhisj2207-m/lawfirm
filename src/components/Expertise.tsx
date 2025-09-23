@@ -69,7 +69,7 @@ const Expertise = () => {
               <Image src="/hollow-circle.png" alt="Hollow circle icon" width={36} height={36} className="w-9 h-9" />
             </div>
             <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-3">Family Law Advocacy</h3>
-            <p className="text-gray-700 text-sm sm:text-base leading-relaxed">Advocating for your family's rights and interests with <br />professionalism and dedication.</p>
+            <p className="text-gray-700 text-sm sm:text-base leading-relaxed">Advocating for your family&apos;s rights and interests with <br />professionalism and dedication.</p>
           </motion.div>
 
         </div>
@@ -101,7 +101,7 @@ const Expertise = () => {
               <Image src="/hollow-circle.png" alt="Hollow circle icon" width={36} height={36} className="w-9 h-9" />
             </div>
             <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-3">Legal Consultation</h3>
-            <p className="text-gray-700 text-sm sm:text-base leading-relaxed">Providing tailored legal advice and consultation to address your <br/> family's unique needs.</p>
+            <p className="text-gray-700 text-sm sm:text-base leading-relaxed">Providing tailored legal advice and consultation to address your <br/> family&apos;s unique needs.</p>
           </motion.div>
         </div>
 

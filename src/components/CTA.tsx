@@ -25,10 +25,10 @@ const CTA = () => {
           className="text-center"
         >
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold mb-6">
-            Don't Face Legal Challenges Alone
+            Don&apos;t Face Legal Challenges Alone
           </h2>
           <p className="text-lg text-gray-300 mb-8 max-w-3xl mx-auto">
-            Whether you're dealing with a complex business matter, family legal issues, 
+            Whether you&apos;re dealing with a complex business matter, family legal issues, 
             or need preventive legal counsel, our experienced team is here to guide you 
             through every step of the process.
           </p>
